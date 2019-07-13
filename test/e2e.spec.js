@@ -27,7 +27,7 @@ describe('express', () => {
       .evaluate(() => document.querySelector('body').innerText)
       .end()
       .then((text) => {
-        expect(text).to.equal('Movie Finder');
+        expect(text).to.equal('Movie Finder\nGo!');
       })
   );
 
