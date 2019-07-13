@@ -51,7 +51,6 @@ class MovieDetailContainer extends React.Component {
 
 MovieDetailContainer.propTypes = {
   dispatch: PropTypes.func
-  // moreInfo: PropTypes.object
 };
 
 function mapStoreToProps(store) {
